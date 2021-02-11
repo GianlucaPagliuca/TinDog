@@ -58,7 +58,7 @@ body{
   width: 60%;
   transform: rotate(25deg);
   position: absolute;
-  right: 30%; 
+  right: 30%;
 }
 
 /* Features */
@@ -115,4 +115,42 @@ body{
 }
 .pricing-column{
   padding: 3% 2%;
+}
+
+/* Call To Action Section */
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+.cta-head{
+  padding: 10%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.cta-icon{
+  margin-right: 5%;
+}
+
+/* footer section */
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+.footer-icon{
+  margin: 2% 1%;
+}
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .iphone6{
+    position: static;
+    transform: rotate(0);
+  }
 }
